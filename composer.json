@@ -5,8 +5,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "lcobucci/jwt": "^5.0",
-        "lcobucci/clock": "^3.0"
+        "authaction/authaction-php-sdk": "^0.1"
     },
     "autoload": {
         "psr-4": {
@@ -25,7 +24,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "audit": {
+            "abandoned": "ignore"
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
