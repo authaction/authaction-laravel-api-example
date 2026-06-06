@@ -3,7 +3,7 @@
     "description": "AuthAction JWKS JWT validation example for Laravel",
     "type": "project",
     "require": {
-        "php": "^8.2",
+        "php": "^8.4",
         "laravel/framework": "^11.0",
         "authaction/authaction-php-sdk": "^0.1"
     },
