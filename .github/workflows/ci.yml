@@ -22,7 +22,7 @@ jobs:
         run: mkdir -p bootstrap/cache
 
       - name: Install dependencies
-        run: composer install --no-interaction --prefer-dist --no-audit
+        run: composer install --no-interaction --prefer-dist --no-security-blocking
 
       - name: Copy env file
         run: cp .env.example .env
